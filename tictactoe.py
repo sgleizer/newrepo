@@ -118,7 +118,7 @@ def play_game(board_size: int = None):
         update_board(board, current_player, coordinates)
         show_board(board)
     show_winner(current_player)
-
+#changed the order of the function//
 
 if __name__ == '__main__':
     play_game()
